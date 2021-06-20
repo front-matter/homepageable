@@ -3,6 +3,7 @@ import { isDev, domain } from 'lib/config'
 import { getSiteMaps } from 'lib/get-site-maps'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
 import { NotionPage } from 'components'
+import Footer from 'components/Footer'
 
 export const getStaticProps = async (context) => {
   const rawPageId = context.params.pageId as string
@@ -55,5 +56,10 @@ export async function getStaticPaths() {
 }
 
 export default function NotionDomainDynamicPage(props) {
-  return <NotionPage {...props} />
+  return (
+    <>
+      <NotionPage {...props} />
+      <Footer />
+    </>
+  )
 }
