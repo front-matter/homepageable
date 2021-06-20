@@ -1,81 +1,173 @@
-import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
-import * as config from 'lib/config'
+import React from 'react'
+import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRss, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub,
+  faTwitter,
+  faDiscourse
+} from '@fortawesome/free-brands-svg-icons'
 
-import styles from './styles.module.css'
-
-// TODO: merge the data and icons from PageSocial with the social links in Footer
-
-export const Footer: React.FC<{
-  isDarkMode: boolean
-  toggleDarkMode: () => void
-}> = ({ isDarkMode, toggleDarkMode }) => {
-  const [hasMounted, setHasMounted] = React.useState(false)
-  const toggleDarkModeCb = React.useCallback(
-    (e) => {
-      e.preventDefault()
-      toggleDarkMode()
-    },
-    [toggleDarkMode]
-  )
-
-  React.useEffect(() => {
-    setHasMounted(true)
-  }, [])
-
+export default function Footer() {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2021 {config.author}</div>
+    <footer className='bg-gray-200' aria-labelledby='footerHeading'>
+      <h2 id='footerHeading' className='sr-only'>
+        Footer
+      </h2>
+      <div className='container py-8 flex flex-auto items-center justify-between font-sans'>
+        <div className='mt-8 w-full grid grid-cols-4 gap-8 xl:mt-0'>
+          <div className='mt-2 mx-6 md:mt-0'>
+            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+              Front Matter
+            </h3>
+            <ul className='mt-1 list-none'>
+              <li>
+                <div className='flex space-x-3 mb-3'>
+                  <Link href='mailto:info@front-matter.io' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>Email</span>
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
+                  </Link>
 
-      {hasMounted ? (
-        <div className={styles.settings}>
-          <a
-            className={styles.toggleDarkMode}
-            onClick={toggleDarkModeCb}
-            title='Tottle dark mode'
-          >
-            {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
-          </a>
+                  <Link href='https://twitter.com/front__matter' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>Twitter</span>
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                  </Link>
+
+                  <Link href='https://discuss.front-matter.io' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>Discourse</span>
+                      <FontAwesomeIcon icon={faDiscourse} />
+                    </a>
+                  </Link>
+
+                  <Link href='https://front-matter.io/feed.xml' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>RSS</span>
+                      <FontAwesomeIcon icon={faRss} />
+                    </a>
+                  </Link>
+
+                  <Link href='https://github.com/front-matter' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>GitHub</span>
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </Link>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div className='mt-2 md:mt-0'>
+            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+              Features
+            </h3>
+            <ul className='mt-1 list-none'>
+              <li>
+                <Link href='/features#editor' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Easy-to-use powerful editor
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/features#scientific' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Editing scientific content
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/features#publishing' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Flexible publishing options
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/features#discovery' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Discovery, discussion and reuse
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className='mt-2 md:mt-0'>
+            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+              Services
+            </h3>
+            <ul className='mt-1 list-none'>
+              <li>
+                <Link href='https://discuss.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Discussion Forum
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://plausible.io/front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Usage Stats
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className='mt-2 md:mt-0'>
+            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+              About
+            </h3>
+            <ul className='mt-1 list-none'>
+              <li>
+                <Link href='/open-source' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Open Source Software
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-      ) : null}
-
-      <div className={styles.social}>
-        {config.twitter && (
-          <a
-            className={styles.twitter}
-            href={`https://twitter.com/${config.twitter}`}
-            title={`Twitter @${config.twitter}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaTwitter />
-          </a>
-        )}
-
-        {config.github && (
-          <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaGithub />
-          </a>
-        )}
-
-        {config.linkedin && (
-          <a
-            className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaLinkedin />
-          </a>
-        )}
       </div>
     </footer>
   )

@@ -1,5 +1,8 @@
-// global styles shared across the entire site
-import 'styles/global.css'
+import '../styles/global.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css' // Import the CSS
+config.autoAddCss = false
 
 // core styles shared by all of react-notion-x (required)
 import 'react-notion-x/src/styles.css'
