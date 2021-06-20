@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'ebddf45bc8464b3e87858b9242b8207d',
+  rootNotionPageId: process.env.NEXT_PUBLIC_NOTION_PAGE_ID,
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -13,7 +13,7 @@ module.exports = {
 
   // open graph metadata (optional)
   description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  socialImageTitle: '',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
