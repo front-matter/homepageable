@@ -1,13 +1,13 @@
 {
   "name": "notionable",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Martin Fenner <travis@transitivebullsh.it>",
+  "description": "Notion-powered homepage.",
+  "author": "Martin Fenner <martin@front-matter.io>",
   "repository": "front-matter/notionable",
   "license": "MIT",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
     "dev": "next dev",
