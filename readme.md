@@ -92,16 +92,6 @@ All extra dependencies are optional -- the project should work just fine out of 
 
 If you want to copy some of the fancier elements of my site, then you'll have to set up a few extras.
 
-### Fathom Analytics
-
-[Fathom](https://usefathom.com/ref/42TFOZ) provides a lightweight alternative to Google Analytics.
-
-It's optional, but I really love how simple and elegant their solution is.
-
-To enable analytics, just add a `NEXT_PUBLIC_FATHOM_ID` environment variable.
-
-This environment variable will only be taken into account in production, so you don't have to worry about messing up your analytics with localhost development.
-
 ### GitHub Comments
 
 <p align="center">
