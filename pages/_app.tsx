@@ -35,7 +35,6 @@ import 'prismjs/components/prism-typescript'
 import 'prismjs/components/prism-bash'
 
 import React from 'react'
-import { useRouter } from 'next/router'
 import { bootstrap } from 'lib/bootstrap-client'
 
 if (typeof window !== 'undefined') {
@@ -43,7 +42,5 @@ if (typeof window !== 'undefined') {
 }
 
 export default function App({ Component, pageProps }) {
-  const router = useRouter()
-
   return <Component {...pageProps} />
 }
