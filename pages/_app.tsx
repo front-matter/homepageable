@@ -38,7 +38,7 @@ import 'prismjs/components/prism-typescript'
 import 'prismjs/components/prism-bash'
 
 import React from 'react'
-import { bootstrap } from 'lib/bootstrap-client'
+import { bootstrap } from '../lib/bootstrap-client'
 
 if (typeof window !== 'undefined') {
   bootstrap()

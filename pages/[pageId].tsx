@@ -1,7 +1,7 @@
 import React from 'react'
-import { isDev, domain } from 'lib/config'
-import { getSiteMaps } from 'lib/get-site-maps'
-import { resolveNotionPage } from 'lib/resolve-notion-page'
+import { isDev, domain } from '../lib/config'
+import { getSiteMaps } from '../lib/get-site-maps'
+import { resolveNotionPage } from '../lib/resolve-notion-page'
 import { NotionPage } from '../components/NotionPage'
 import Footer from '../components/Footer'
 
