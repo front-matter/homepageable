@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  a {
-    @apply pb-0.5 border-b border-blue-600 hover:border-blue-800 visited:border-blue-600;
-  }
   body {
     @apply font-serif;
   }
@@ -75,5 +72,9 @@
   }
   .csl-indent { 
     @apply ml-8;
+  }
+
+  .notion-page-title {
+    @apply text-2xl;
   }
 }

@@ -53,7 +53,7 @@ export default function Footer() {
                     </a>
                   </Link>
 
-                  <Link href='https://front-matter.io/feed.xml' passHref>
+                  <Link href='https://blog.front-matter.io/feed.xml' passHref>
                     <a
                       href='dummy'
                       className='text-gray-500 hover:text-gray-400 border-b-0'
@@ -82,7 +82,10 @@ export default function Footer() {
             </h3>
             <ul className='mt-1 list-none'>
               <li>
-                <Link href='/features#editor' passHref>
+                <Link
+                  href='https://blog.front-matter.io/features#editor'
+                  passHref
+                >
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
@@ -92,7 +95,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='/features#scientific' passHref>
+                <Link
+                  href='https://blog.front-matter.io/features#scientific'
+                  passHref
+                >
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
@@ -102,7 +108,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='/features#publishing' passHref>
+                <Link
+                  href='https://blog.front-matter.io/features#publishing'
+                  passHref
+                >
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
@@ -112,7 +121,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='/features#discovery' passHref>
+                <Link
+                  href='https://blog.front-matter.io/features#discovery'
+                  passHref
+                >
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
@@ -128,6 +140,16 @@ export default function Footer() {
               Services
             </h3>
             <ul className='mt-1 list-none'>
+              <li>
+                <Link href='https://blog.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Blog
+                  </a>
+                </Link>
+              </li>
               <li>
                 <Link href='https://discuss.front-matter.io' passHref>
                   <a
