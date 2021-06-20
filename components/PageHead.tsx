@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import * as React from 'react'
-import * as types from 'lib/types'
+import * as types from '../lib/types'
 
 // TODO: remove duplication between PageHead and NotionPage Head
 
