@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import * as React from 'react'
 import * as types from '../lib/types'
 import { PageHead } from './PageHead'
@@ -28,12 +29,13 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
           ) : (
             pageId && (
               <p>
-                Make sure that Notion page "{pageId}" is publicly accessible.
+                Make sure that Notion page &quot;{pageId}&quot; is publicly
+                accessible.
               </p>
             )
           )}
 
-          <img
+          <Image
             src='/404.png'
             alt='404 Not Found'
             className={styles.errorImage}
