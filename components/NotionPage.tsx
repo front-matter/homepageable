@@ -207,7 +207,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
           pageId === site.rootNotionPageId && 'index-page'
         )}
         components={{
-          Link: Link,
           code: Code,
           collection: Collection,
           collectionRow: CollectionRow,
