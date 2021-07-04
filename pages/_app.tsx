@@ -1,4 +1,6 @@
 import '../styles/global.css'
+import PlausibleProvider from 'next-plausible'
+import Head from 'next/head'
 
 // global style overrides for notion
 import '../styles/notion.css'
@@ -46,5 +48,24 @@ if (typeof window !== 'undefined') {
 }
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <PlausibleProvider domain='front-matter.io'>
+        <Head>
+          <meta
+            name='viewport'
+            content='width=device-width, initial-scale=1, shrink-to-fit=no'
+          />
+          <title>Front Matter</title>
+          <link rel='shortcut icon' href='/favicon.ico' />
+          <link
+            rel='apple-touch-icon'
+            sizes='180x180'
+            href='/apple-touch-icon.png'
+          />
+        </Head>
+        <Component {...pageProps} />
+      </PlausibleProvider>
+    </>
+  )
 }
