@@ -1,10 +1,19 @@
 {
   "redirects": [{
-    "source": "/mfenner/:slug",
-    "has": [{
-      "type": "host",
-      "value": "front-matter.io"
-    }],
-    "destination": "https://blog.front-matter.io/mfenner/:slug"
-  }]
+      "source": "/mfenner/:slug",
+      "has": [{
+        "type": "host",
+        "value": "front-matter.io"
+      }],
+      "destination": "https://blog.front-matter.io/mfenner/:slug"
+    },
+    {
+      "source": "/feed.xml",
+      "has": [{
+        "type": "host",
+        "value": "front-matter.io"
+      }],
+      "destination": "https://blog.front-matter.io/feed.xml"
+    }
+  ]
 }
