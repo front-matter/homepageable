@@ -5,7 +5,8 @@ import { faArchive, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faTwitter,
-  faLinkedin
+  faLinkedin,
+  faDiscourse
 } from '@fortawesome/free-brands-svg-icons'
 
 export default function Newsletter() {
@@ -26,7 +27,19 @@ export default function Newsletter() {
           newsletter&nbsp;below. The newsletter contains titles, abstracts and
           authors of preprints published the previous week on either the BioRxiv
           or MedRxiv archive, and tweeted at least three times. You can
-          unsubscribe anytime.
+          unsubscribe any time.
+        </div>
+        <div className='container flex mx-auto py-2 px-8 font-sans text-gray-700'>
+          Use the&nbsp;
+          <Link href='https://discuss.front-matter.io/c/preprints/11' passHref>
+            <a
+              href='dummy'
+              className='text-gray-500 hover:text-gray-400 border-b-0'
+            >
+              Front Matter discussion forum
+            </a>
+          </Link>
+          &nbsp; for any questions or comments.
         </div>
         <div className='container flex mx-auto py-2 px-8 font-sans text-gray-700'>
           <div className='mt-6'>
@@ -351,7 +364,7 @@ export default function Newsletter() {
               <input type='hidden' name='anticsrf' value='true' />
               <button
                 type='submit'
-                className='ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                className='ml-3 mb-6 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
               >
                 Subscribe
               </button>
