@@ -1,8 +1,4 @@
 import React from 'react'
-import { isDev, domain } from '../lib/config'
-import { getSiteMaps } from '../lib/get-site-maps'
-import { resolveNotionPage } from '../lib/resolve-notion-page'
-import { NotionPage } from '../components/NotionPage'
 import Footer from '../components/Footer'
 
 export const getStaticProps = async (context) => {
@@ -17,12 +13,10 @@ export const getStaticProps = async (context) => {
       }
     }
 
-    const props = await resolveNotionPage(domain, rawPageId)
+    const props = null
 
     return { props, revalidate: 10 }
   } catch (err) {
-    console.error('page error', domain, rawPageId, err)
-
     // we don't want to publish the error version of this page, so
     // let next.js know explicitly that incremental SSG failed
     throw err
@@ -30,14 +24,7 @@ export const getStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
-  if (isDev) {
-    return {
-      paths: [],
-      fallback: true
-    }
-  }
-
-  const siteMaps = await getSiteMaps()
+  const siteMaps = []
 
   const ret = {
     paths: siteMaps.flatMap((siteMap) =>
@@ -58,7 +45,6 @@ export async function getStaticPaths() {
 export default function NotionDomainDynamicPage(props) {
   return (
     <>
-      <NotionPage {...props} />
       <Footer />
     </>
   )

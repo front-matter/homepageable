@@ -31,7 +31,6 @@ export default function Newsletter() {
         <div className='container flex mx-auto py-2 px-8 font-sans text-gray-700'>
           <div className='mt-6'>
             <form
-              class='ml-block-form'
               action='https://static.mailerlite.com/webforms/submit/b5d0u2'
               data-code='b5d0u2'
               method='post'
