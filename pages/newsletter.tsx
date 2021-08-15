@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 
-const IndexPage = () => {
+const NewsletterPage = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default NewsletterPage
