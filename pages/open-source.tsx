@@ -1,16 +1,16 @@
 import React from 'react'
-import Team from '../components/Team'
+import OpenSource from '../components/OpenSource'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const TeamPage = () => {
+const OpenSourcePage = () => {
   return (
     <>
       <Header />
-      <Team />
+      <OpenSource />
       <Footer />
     </>
   )
 }
 
-export default TeamPage
+export default OpenSourcePage
