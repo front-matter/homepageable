@@ -34,7 +34,7 @@ export default function Newsletter() {
           <Link href='https://discuss.front-matter.io/c/preprints/11' passHref>
             <a
               href='dummy'
-              className='text-gray-500 hover:text-gray-400 border-b-0'
+              className='text-green-600 hover:text-green-400 border-b-0'
             >
               Front Matter discussion forum
             </a>
@@ -102,6 +102,10 @@ export default function Newsletter() {
                       >
                         Medical and Health Sciences
                       </label>
+                      <p className='text-gray-500'>
+                        This division covers the medical and health sciences,
+                        with the exception to preprints related to SARS-Cov-2.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -123,9 +127,8 @@ export default function Newsletter() {
                         Biochemistry and Cell Biology
                       </label>
                       <p className='text-gray-500'>
-                        This group covers biochemistry or the chemistry of
-                        living organisms. It includes cell biology and membrane
-                        biology.
+                        This group covers biochemistry, and includes cell
+                        biology, developmental biology, and membrane biology.
                       </p>
                     </div>
                   </div>
@@ -147,6 +150,33 @@ export default function Newsletter() {
                       >
                         Bioinformatics
                       </label>
+                      <p className='text-gray-500'>
+                        This group covers bioinformatics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className='mt-4 space-y-4'>
+                  <div className='relative flex items-start'>
+                    <div className='flex items-center h-5'>
+                      <input
+                        name='groups[]'
+                        type='checkbox'
+                        value='108327457'
+                        className='focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded'
+                      />
+                    </div>
+                    <div className='ml-3 text-sm'>
+                      <label
+                        htmlFor='Cancer'
+                        className='font-medium text-gray-700'
+                      >
+                        Cancer
+                      </label>
+                      <p className='text-gray-500'>
+                        This group covers cancer, including cancer biology,
+                        hematology, and oncology.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -216,7 +246,7 @@ export default function Newsletter() {
                         Genetics
                       </label>
                       <p className='text-gray-500'>
-                        This group covers genetics and heredity.
+                        This group covers genetics, genomics and heredity.
                       </p>
                     </div>
                   </div>
@@ -240,7 +270,7 @@ export default function Newsletter() {
                       </label>
                       <p className='text-gray-500'>
                         This group covers microbiology, including bacteriology,
-                        parasitology and virology.
+                        parasitology and virology. It also includes immunology.
                       </p>
                     </div>
                   </div>
@@ -289,7 +319,7 @@ export default function Newsletter() {
                       </label>
                       <p className='text-gray-500'>
                         This group covers physiology other than medical or
-                        plant.
+                        plant. It includes biophysics.
                       </p>
                     </div>
                   </div>
@@ -311,6 +341,9 @@ export default function Newsletter() {
                       >
                         Plant Biology
                       </label>
+                      <p className='text-gray-500'>
+                        This group covers plant biology.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -331,6 +364,10 @@ export default function Newsletter() {
                       >
                         Zoology
                       </label>
+                      <p className='text-gray-500'>
+                        This group covers zoology. It includes animal behavior
+                        and cognition.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -353,8 +390,7 @@ export default function Newsletter() {
                       </label>
                       <p className='text-gray-500'>
                         This group covers biological sciences not elsewhere
-                        classified. It includes forensic biology and global
-                        change biology.
+                        classified.
                       </p>
                     </div>
                   </div>

@@ -98,16 +98,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://discuss.front-matter.io' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Discussion Forum
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href='/newsletter' passHref>
                   <a
                     href='dummy'
@@ -118,6 +108,43 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href='https://discuss.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Discussion Forum
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://front-matter.io/services' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Software Development
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://front-matter.io/services' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Infrastructure Hosting
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className='mt-2 md:mt-0'>
+            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+              Other
+            </h3>
+            <ul className='mt-1 list-none'>
+              <li>
                 <Link
                   href='https://front-matter.notion.site/front-matter/Front-Matter-Wiki-ebddf45bc8464b3e87858b9242b8207d'
                   passHref
@@ -127,6 +154,16 @@ export default function Footer() {
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
                     Wiki
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/open-source' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Open Source Software
                   </a>
                 </Link>
               </li>
@@ -154,16 +191,6 @@ export default function Footer() {
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
                     Team
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/open-source' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Open Source Software
                   </a>
                 </Link>
               </li>
