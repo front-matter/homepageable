@@ -30,11 +30,6 @@ export default function Team() {
         <div className='space-y-12 lg:grid lg:gap-8 lg:space-y-0'>
           <div className='space-y-5 sm:space-y-4'>
             <h2 className='text-3xl font-extrabold text-green-600'>Team</h2>
-            <p className='text-xl text-gray-500'>
-              Front Matter offers custom software development and hosting for
-              the scholarly community. Please contact us for inquiries or
-              general questions.
-            </p>
           </div>
           <div className='lg:col-span-2'>
             <ul className='space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0'>
