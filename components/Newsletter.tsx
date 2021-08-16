@@ -105,6 +105,7 @@ export default function Newsletter() {
                       <p className='text-gray-500'>
                         This division covers the medical and health sciences,
                         with the exception to preprints related to SARS-Cov-2.
+                        This includes pharmacology and pathology.
                       </p>
                     </div>
                   </div>
@@ -390,7 +391,8 @@ export default function Newsletter() {
                       </label>
                       <p className='text-gray-500'>
                         This group covers biological sciences not elsewhere
-                        classified.
+                        classified, including paleontology, bioengineering, and
+                        scientific communication.
                       </p>
                     </div>
                   </div>
