@@ -118,7 +118,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://front-matter.io/services' passHref>
+                <Link href='https://front-matter.io' passHref>
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
@@ -128,12 +128,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://front-matter.io/services' passHref>
+                <Link href='https://front-matter.io' passHref>
                   <a
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
-                    Infrastructure Hosting
+                    Cloud Hosting
                   </a>
                 </Link>
               </li>
