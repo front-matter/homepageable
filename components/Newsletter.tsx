@@ -129,7 +129,7 @@ export default function Newsletter() {
                       </label>
                       <p className='text-gray-500'>
                         This group covers biochemistry, and includes cell
-                        biology, developmental biology, and membrane biology.
+                        biology, developmental biology, and molecular biology.
                       </p>
                     </div>
                   </div>
