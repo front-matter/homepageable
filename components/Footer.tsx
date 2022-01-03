@@ -145,19 +145,6 @@ export default function Footer() {
             </h3>
             <ul className='mt-1 list-none'>
               <li>
-                <Link
-                  href='https://front-matter.notion.site/front-matter/Front-Matter-Wiki-ebddf45bc8464b3e87858b9242b8207d'
-                  passHref
-                >
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Wiki
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href='/open-source' passHref>
                   <a
                     href='dummy'

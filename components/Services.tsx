@@ -152,16 +152,13 @@ export default function Features() {
                       <FontAwesomeIcon icon={faBarcode} />
                     </div>
                     <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Persistent identifiers{' '}
-                      <span className='text-base text-normal text-yellow-500'>
-                        coming soon
-                      </span>
+                      Persistent identifiers
                     </p>
                   </dt>
                   <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    All posts will automatically be registered with a DOI,
+                    All Front Matter posts are automatically registered with a Crossref DOI,
                     including the ORCID IDs of all authors, the abstract, and
-                    the references in the metadata.
+                    the license in the metadata.
                   </dd>
                 </div>
               </dl>
