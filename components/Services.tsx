@@ -36,7 +36,6 @@ import inveniordm from '../public/img/inveniordm.png'
 import cloud from '../public/img/cloud.png'
 import { access } from 'fs'
 import { addDays } from 'date-fns'
-import Newsletter from './Newsletter'
 
 export default function Features() {
   return (
@@ -241,122 +240,6 @@ export default function Features() {
             />
           </svg>
 
-          <div className='relative mt-12 sm:mt-16 lg:mt-24'>
-            <div className='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
-              <div className='lg:col-start-2'>
-                <h3
-                  id='scientific'
-                  className='text-2xl text-bold text-gray-900 tracking-tight sm:text-3xl'
-                >
-                  Newsletter
-                </h3>
-                <p className='mt-3 text-lg text-gray-500'>
-                  The{' '}
-                  <a
-                    href='https://front-matter.io/newsletter'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='text-green-600 font-bold'
-                  >
-                    Front Matter Preprint Newsletter
-                  </a>{' '}
-                  highlights recently posted interesting life sciences
-                  preprints.
-                </p>
-
-                <dl className='mt-10 space-y-10'>
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faTags} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Subject Area
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      There are 14 separate newsletters by life sciences subject
-                      area.
-                    </dd>
-                  </div>
-
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faClock} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        New
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      The weekly Front Matter newsletter only shows preprints
-                      posted within the last seven days.
-                    </dd>
-                  </div>
-
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faTwitter} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Tweets
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      The Front Matter newsletter filters preprints by having a
-                      minimal number of tweets.
-                    </dd>
-                  </div>
-                </dl>
-              </div>
-
-              <div className='mt-10 -mx-4 relative lg:mt-0 lg:col-start-1'>
-                <svg
-                  className='absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden'
-                  width='784'
-                  height='404'
-                  fill='none'
-                  viewBox='0 0 784 404'
-                  aria-hidden='true'
-                >
-                  <defs>
-                    <pattern
-                      id='e80155a9-dfde-425a-b5ea-1f6fadd20131'
-                      x='0'
-                      y='0'
-                      width='20'
-                      height='20'
-                      patternUnits='userSpaceOnUse'
-                    >
-                      <rect
-                        x='0'
-                        y='0'
-                        width='4'
-                        height='4'
-                        className='text-gray-200'
-                        fill='currentColor'
-                      />
-                    </pattern>
-                  </defs>
-                  <rect
-                    width='784'
-                    height='404'
-                    fill='url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)'
-                  />
-                </svg>
-                <Image
-                  className='relative mx-auto mr-16 shadow-md'
-                  width={841}
-                  height={795}
-                  src={covid}
-                  alt='COVID'
-                />
-              </div>
-            </div>
-          </div>
-
           <div className='relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center'>
             <div className='relative'>
               <h3
@@ -391,20 +274,6 @@ export default function Features() {
                   <dd className='mt-1 ml-16 text-base text-gray-500'>
                     Commenting and further discussion of Front Matter blog
                     posts.
-                  </dd>
-                </div>
-
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faComments} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Newsletter Feedback
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    Collecting feedback regarding the newsletter.
                   </dd>
                 </div>
 
