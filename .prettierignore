@@ -2,8 +2,6 @@
 build/
 dist/
 node_modules/
-.next/
-.vercel/
 
 .demo/
 .renderer/
