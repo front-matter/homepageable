@@ -98,12 +98,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='https://discuss.front-matter.io' passHref>
+                <Link href="/discord" passHref>
                   <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
-                    Discussion Forum
+                    Discord
                   </a>
                 </Link>
               </li>
