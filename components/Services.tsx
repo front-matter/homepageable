@@ -25,13 +25,11 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faCreativeCommons,
-  faDiscourse,
   faTwitter
 } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
 import blog from '../public/img/blog.png'
 import covid from '../public/img/covid.png'
-import discourse from '../public/img/discourse.png'
 import inveniordm from '../public/img/inveniordm.png'
 import cloud from '../public/img/cloud.png'
 import { access } from 'fs'
@@ -130,24 +128,6 @@ export default function Features() {
                 <div className='relative'>
                   <dt>
                     <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faRssSquare} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Import from Blogs and Google Docs{' '}
-                      <span className='text-base text-normal text-yellow-500'>
-                        in beta testing
-                      </span>
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    The Front Matter Blog can automatically generate blog posts
-                    from RSS feeds and Google Docs.
-                  </dd>
-                </div>
-
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
                       <FontAwesomeIcon icon={faBarcode} />
                     </div>
                     <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
@@ -239,102 +219,6 @@ export default function Features() {
               fill='url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)'
             />
           </svg>
-
-          <div className='relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center'>
-            <div className='relative'>
-              <h3
-                id='discussion'
-                className='text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl'
-              >
-                Discussion Forum
-              </h3>
-              <p className='mt-3 mr-16 text-lg text-gray-500'>
-                Front Matter uses the Open Source{' '}
-                <a
-                  href='https://discourse.org/'
-                  target='_blank'
-                  className='text-green-600 font-bold'
-                  rel='noopener noreferrer'
-                >
-                  Discourse
-                </a>{' '}
-                discussion forum to enable civilized discussions.
-              </p>
-
-              <dl className='mt-10 space-y-10'>
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faComments} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Blog Comments
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    Commenting and further discussion of Front Matter blog
-                    posts.
-                  </dd>
-                </div>
-
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faComments} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      General Discussion
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    Enable discussions on any relevant Open Science topic.
-                  </dd>
-                </div>
-              </dl>
-            </div>
-
-            <div className='mt-10 -mx-4 relative lg:mt-0' aria-hidden='true'>
-              <svg
-                className='absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden'
-                width='784'
-                height='404'
-                fill='none'
-                viewBox='0 0 784 404'
-              >
-                <defs>
-                  <pattern
-                    id='ca9667ae-9f92-4be7-abcb-9e3d727f2941'
-                    x='0'
-                    y='0'
-                    width='20'
-                    height='20'
-                    patternUnits='userSpaceOnUse'
-                  >
-                    <rect
-                      x='0'
-                      y='0'
-                      width='4'
-                      height='4'
-                      className='text-gray-200'
-                      fill='currentColor'
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width='784'
-                  height='404'
-                  fill='url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)'
-                />
-              </svg>
-              <Image
-                className='relative mt-16 mx-auto shadow-md'
-                width={720}
-                height={480}
-                src={discourse}
-                alt='Discourse'
-              />
-            </div>
-          </div>
 
           <div className='relative mt-12 sm:mt-16 lg:mt-24'>
             <div className='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
