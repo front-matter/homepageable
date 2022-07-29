@@ -49,15 +49,6 @@ export default function Footer() {
                     </a>
                   </Link>
 
-                  <Link href='https://discuss.front-matter.io' passHref>
-                    <a
-                      href='dummy'
-                      className='text-gray-500 hover:text-gray-400 border-b-0'
-                    >
-                      <span className='sr-only'>Discourse</span>
-                      <FontAwesomeIcon icon={faDiscourse} />
-                    </a>
-                  </Link>
 
                   <Link href='https://blog.front-matter.io/feed.xml' passHref>
                     <a
@@ -108,6 +99,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href='https://plausible.io/blog.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Usage Stats
+                  </a>
+                </Link>
+              </li>
+              <li>
                 <Link href='https://front-matter.io' passHref>
                   <a
                     href='dummy'
@@ -129,45 +130,28 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className='mt-2 md:mt-0'>
-            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
-              Other
-            </h3>
-            <ul className='mt-1 list-none'>
-              <li>
-                <Link href='/open-source' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Open Source Software
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='https://plausible.io/blog.front-matter.io' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Usage Stats
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className='mt-2 md:mt-0'>
-            <h3 className='text-base font-semibold text-gray-400 tracking-wider uppercase'>
+          <div className="mt-2 mx-6 md:mt-0">
+            <h3 className="text-base font-semibold text-gray-400 tracking-wider uppercase">
               About
             </h3>
-            <ul className='mt-1 list-none'>
+            <ul className="mt-1 list-none">
               <li>
-                <Link href='/team' passHref>
+                <Link href="/team" passHref>
                   <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
                     Team
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/open-source" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Open Source Software
                   </a>
                 </Link>
               </li>
