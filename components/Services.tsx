@@ -1,39 +1,16 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faFilePdf,
-  faPlusSquare,
-  faEnvelope
-} from '@fortawesome/free-regular-svg-icons'
-import {
-  faTextHeight,
-  faUserFriends,
-  faChartArea,
   faChartLine,
   faClipboard,
-  faRssSquare,
-  faExternalLinkAlt,
-  faBarcode,
-  faFileArchive,
   faCloud,
   faServer,
   faSearch,
-  faComments,
-  faTags,
-  faClock,
   faDatabase
 } from '@fortawesome/free-solid-svg-icons'
-import {
-  faCreativeCommons,
-  faTwitter
-} from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
-import blog from '../public/img/blog.png'
-import covid from '../public/img/covid.png'
 import inveniordm from '../public/img/inveniordm.png'
 import cloud from '../public/img/cloud.png'
-import { access } from 'fs'
-import { addDays } from 'date-fns'
 
 export default function Features() {
   return (
@@ -80,110 +57,8 @@ export default function Features() {
             </h2>
             <p className='mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500'>
               Front Matter offers software development and hosting for the
-              scholarly community, and is providing some of these services
-              directly to users.
+              scholarly community.
             </p>
-          </div>
-
-          <div className='relative mt-8 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center'>
-            <div className='relative'>
-              <h3
-                id='blog'
-                className='text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl'
-              >
-                Blog
-              </h3>
-              <p className='mt-3 mr-16 text-lg text-gray-500'>
-                The{' '}
-                <a
-                  href='https://blog.front-matter.io'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='text-green-600 font-bold'
-                >
-                  Front Matter Blog
-                </a>{' '}
-                covers all aspects of Open Science, and is open to guest
-                authors.
-              </p>
-
-              <dl className='mt-10 space-y-10'>
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faUserFriends} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Open Science
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    The blog provides news, perspectives, feature articles and
-                    interviews around Open Science. Topics include research
-                    data, research software, preprints, open access, and open
-                    metrics.
-                  </dd>
-                </div>
-
-                <div className='relative'>
-                  <dt>
-                    <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                      <FontAwesomeIcon icon={faBarcode} />
-                    </div>
-                    <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                      Persistent identifiers
-                    </p>
-                  </dt>
-                  <dd className='mt-1 ml-16 text-base text-gray-500'>
-                    All Front Matter posts are automatically registered with a Crossref DOI,
-                    including the ORCID IDs of all authors, the abstract, and
-                    the license in the metadata.
-                  </dd>
-                </div>
-              </dl>
-            </div>
-
-            <div className='mt-10 -mx-4 relative lg:mt-0' aria-hidden='true'>
-              <svg
-                className='absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden'
-                width='784'
-                height='404'
-                fill='none'
-                viewBox='0 0 784 404'
-              >
-                <defs>
-                  <pattern
-                    id='ca9667ae-9f92-4be7-abcb-9e3d727f2941'
-                    x='0'
-                    y='0'
-                    width='20'
-                    height='20'
-                    patternUnits='userSpaceOnUse'
-                  >
-                    <rect
-                      x='0'
-                      y='0'
-                      width='4'
-                      height='4'
-                      className='text-gray-200'
-                      fill='currentColor'
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width='784'
-                  height='404'
-                  fill='url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)'
-                />
-              </svg>
-              <Image
-                className='relative mt-16 mx-auto shadow-md'
-                width={525}
-                height={628}
-                src={blog}
-                alt='Blog'
-              />
-            </div>
           </div>
 
           <svg
@@ -361,14 +236,14 @@ export default function Features() {
                     </dt>
                     <dd className='mt-1 ml-16 text-base text-gray-500'>
                       Help with running scholarly infrastructure with cloud
-                      providers Amazon AWS, Microsoft Azure, or{' '}
+                      providers Amazon AWS or{' '}
                       <a
-                        href='https://civo.com'
+                        href='https://digitalocean.com'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-green-600 font-bold'
                       >
-                        Civo
+                        Digital Ocean
                       </a>
                       .
                     </dd>

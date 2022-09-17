@@ -78,36 +78,6 @@ export default function Footer() {
             </h3>
             <ul className='mt-1 list-none'>
               <li>
-                <Link href='https://blog.front-matter.io' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Blog
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/discord" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Discord
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='https://plausible.io/blog.front-matter.io' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Usage Stats
-                  </a>
-                </Link>
-              </li>
-              <li>
                 <Link href='https://front-matter.io' passHref>
                   <a
                     href='dummy'
@@ -124,6 +94,26 @@ export default function Footer() {
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
                     Cloud Hosting
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://blog.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Blog
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/discord" passHref>
+                  <a
+                    href="dummy"
+                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
+                  >
+                    Discord
                   </a>
                 </Link>
               </li>
@@ -151,6 +141,26 @@ export default function Footer() {
                     className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
                   >
                     Open Source Software
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://plausible.io/blog.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Usage Stats
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='https://front-matter.instatus.com/' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Status Page
                   </a>
                 </Link>
               </li>

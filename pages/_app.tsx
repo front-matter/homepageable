@@ -8,9 +8,6 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css' // Import the CSS
 config.autoAddCss = false
 
-// core styles for static tweet renderer (optional)
-import 'react-static-tweets/styles.css'
-
 // global style overrides for prism theme (optional)
 // import 'styles/prism-theme.css'
 
