@@ -236,7 +236,7 @@ export default function Features() {
                     </dt>
                     <dd className='mt-1 ml-16 text-base text-gray-500'>
                       Help with running scholarly infrastructure with cloud
-                      providers Amazon AWS or{' '}
+                      providers Amazon&nbsp;AWS or{' '}
                       <a
                         href='https://digitalocean.com'
                         target='_blank'
