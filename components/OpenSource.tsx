@@ -108,28 +108,6 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/typesense/typesense' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Typesense
-                </a>
-              </Link>
-            </dt>
-            <dd className='mt-0 ml-9 text-base text-gray-500'>
-              Typesense is a fast, typo-tolerant search engine for building
-              delightful search experiences.
-              <p className='mt-2 text-sm font-sans'>
-                Original authors Jason Bosco, Kishore Nallan
-              </p>
-            </dd>
-          </div>
-
-          <div className='relative'>
-            <dt>
               <Link href='https://github.com/plausible/hosting' passHref>
                 <a
                   href='dummy'

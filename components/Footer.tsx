@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRss, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faTwitter
+  faTwitter,
+  faDiscord
 } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
@@ -68,6 +69,16 @@ export default function Footer() {
                       <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </Link>
+
+                  <Link href='/discord' passHref>
+                    <a
+                      href='dummy'
+                      className='text-gray-500 hover:text-gray-400 border-b-0'
+                    >
+                      <span className='sr-only'>Discord</span>
+                      <FontAwesomeIcon icon={faDiscord} />
+                    </a>
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -94,26 +105,6 @@ export default function Footer() {
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
                     Cloud Hosting
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='https://blog.front-matter.io' passHref>
-                  <a
-                    href='dummy'
-                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
-                  >
-                    Blog
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/discord" passHref>
-                  <a
-                    href="dummy"
-                    className="text-sm border-b-0 text-gray-500 hover:text-gray-400"
-                  >
-                    Discord
                   </a>
                 </Link>
               </li>
@@ -145,6 +136,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href='https://blog.front-matter.io' passHref>
+                  <a
+                    href='dummy'
+                    className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
+                  >
+                    Blog
+                  </a>
+                </Link>
+              </li>
+              <li>
                 <Link href='https://plausible.io/blog.front-matter.io' passHref>
                   <a
                     href='dummy'
@@ -160,7 +161,7 @@ export default function Footer() {
                     href='dummy'
                     className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                   >
-                    Status Page
+                    Status
                   </a>
                 </Link>
               </li>
