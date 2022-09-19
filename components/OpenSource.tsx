@@ -17,6 +17,27 @@ export default function OpenSource() {
         <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
           <div className='relative'>
             <dt>
+              <Link href='https://github.com/inveniosoftware/invenio-app-rdm' passHref>
+                <a
+                  href='dummy'
+                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  InvenioRDM
+                </a>
+              </Link>
+            </dt>
+            <dd className='mt-0 ml-9 text-base text-gray-500'>
+              The turn-key research data management platform built on Invenio.
+              <p className='mt-2 text-sm font-sans'>
+                Original author Lars Holm Nielsen
+              </p>
+            </dd>
+          </div>
+
+          <div className='relative'>
+            <dt>
               <Link href='https://github.com/TryGhost/Ghost' passHref>
                 <a
                   href='dummy'
@@ -36,6 +57,7 @@ export default function OpenSource() {
               </p>
             </dd>
           </div>
+
 
           <div className='relative'>
             <dt>
