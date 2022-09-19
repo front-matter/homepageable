@@ -128,6 +128,56 @@ export default function OpenSource() {
             </dd>
           </div>
         </dl>
+        <div className='max-w-3xl mx-auto text-center'>
+          <p className='mt-4 text-lg text-gray-500'>
+            Front Matter has released thr following open source software:
+          </p>
+        </div>
+        <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
+          <div className='relative'>
+            <dt>
+              <Link href='https://github.com/front-matter/briard' passHref>
+                <a
+                  href='dummy'
+                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Briard
+                </a>
+              </Link>
+            </dt>
+            <dd className='mt-0 ml-9 text-base text-gray-500'>
+              Ruby gem and command-line utility for conversion of DOI metadata from 
+              and to different metadata formats, including schema.org. 
+              <p className='mt-2 text-sm font-sans'>
+                Original author Martin Fenner
+              </p>
+            </dd>
+          </div>
+
+          <div className='relative'>
+            <dt>
+              <Link href='https://github.com/front-matter/schlagzeile' passHref>
+                <a
+                  href='dummy'
+                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Schlagzeile
+                </a>
+              </Link>
+            </dt>
+            <dd className='mt-0 ml-9 text-base text-gray-500'>
+              Schlagzeile is a Ghost theme forked from the official theme Headline, with
+              improved display of metadata such as the canonical URL and license.
+              <p className='mt-2 text-sm font-sans'>
+                Original author Martin Fenner
+              </p>
+            </dd>
+          </div>
+        </dl>
       </div>
     </div>
   )

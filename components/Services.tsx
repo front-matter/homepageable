@@ -6,7 +6,8 @@ import {
   faCloud,
   faServer,
   faSearch,
-  faDatabase
+  faDatabase,
+  faShieldAlt
 } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 import inveniordm from '../public/img/inveniordm.png'
@@ -292,6 +293,21 @@ export default function Features() {
                         Terraform
                       </a>{' '}
                       for managing cloud infrastructure.
+                    </dd>
+                  </div>
+
+                  <div className='relative'>
+                    <dt>
+                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
+                        <FontAwesomeIcon icon={faShieldAlt} />
+                      </div>
+                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
+                        Security
+                      </p>
+                    </dt>
+                    <dd className='mt-1 ml-16 text-base text-gray-500'>
+                      Help with implementing Security Best Practices
+                      for cloud infrastructure.
                     </dd>
                   </div>
                 </dl>
