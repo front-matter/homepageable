@@ -152,7 +152,7 @@ export default function OpenSource() {
         </dl>
         <div className='max-w-3xl mx-auto text-center'>
           <p className='mt-4 text-lg text-gray-500'>
-            Front Matter has released thr following open source software:
+            Front Matter has released the following open source software:
           </p>
         </div>
         <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
