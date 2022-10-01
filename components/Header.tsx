@@ -16,7 +16,7 @@ export default function Navbar(props) {
                   <a href='dummy' className='text-lg text-green-600 pl-6 space-x-2 border-b-0 flex items-center'>
                     <FontAwesomeIcon icon={faBoxOpen} />
                     <span className='font-semibold'>
-                      Front Matter
+                      Front&nbsp;Matter
                     </span>
                   </a>
                 </Link>
