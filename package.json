@@ -27,7 +27,7 @@
     "@next/mdx": "^12.3.1",
     "date-fns": "^2.29.1",
     "next": "^12.3.1",
-    "next-plausible": "^3.6.2",
+    "next-plausible": "^3.6.3",
     "node-fetch": "^3.2.10",
     "nth-check": "^2.0.1",
     "prismjs": "^1.29.0",
