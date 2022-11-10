@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRss, faEnvelope, faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faTwitter,
+  faMastodon,
   faDiscord
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -40,13 +40,13 @@ export default function Footer() {
                     </a>
                   </Link>
 
-                  <Link href='https://twitter.com/front__matter' passHref>
+                  <Link href='https://mstdn.science/@frontmatter' rel='me' passHref>
                     <a
                       href='dummy'
                       className='text-gray-500 hover:text-gray-400 border-b-0'
                     >
-                      <span className='sr-only'>Twitter</span>
-                      <FontAwesomeIcon icon={faTwitter} />
+                      <span className='sr-only'>Mastodon</span>
+                      <FontAwesomeIcon icon={faMastodon} />
                     </a>
                   </Link>
 

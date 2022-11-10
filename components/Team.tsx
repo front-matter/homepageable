@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faTwitter,
+  faMastodon,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -16,7 +16,7 @@ const people = [
     imageUrl: '/img/mfenner.png',
     bio:
       'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.',
-    twitterUrl: 'https://twitter.com/mfenner',
+    mastodonUrl: 'https://mastodon.social/@mfenner',
     githubUrl: 'https://github.com/mfenner',
     linkedinUrl: 'https://www.linkedin.com/in/mfenner'
   }
@@ -67,13 +67,13 @@ export default function Team() {
                             </Link>
                           </li>
                           <li>
-                            <Link href={person.twitterUrl} passHref>
+                            <Link href={person.mastodonUrl} passHref>
                               <a
                                 href='dummy'
                                 className='text-gray-500 hover:text-gray-400 border-b-0'
                               >
-                                <span className='sr-only'>Twitter</span>
-                                <FontAwesomeIcon icon={faTwitter} />
+                                <span className='sr-only'>Mastodon</span>
+                                <FontAwesomeIcon icon={faMastodon} />
                               </a>
                             </Link>
                           </li>
