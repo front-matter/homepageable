@@ -12,13 +12,11 @@ export default function Navbar(props) {
           <div className='flex justify-between h-16'>
             <div className='flex mx-2 px-2 lg:px-0'>
               <div className='flex-shrink-0 flex items-center'>
-                <Link href='/' passHref>
-                  <a href='dummy' className='text-lg text-green-600 pl-6 space-x-2 border-b-0 flex items-center'>
-                    <FontAwesomeIcon icon={faBoxOpen} />
-                    <span className='font-semibold'>
-                      Front&nbsp;Matter
-                    </span>
-                  </a>
+                <Link href='/' className='text-lg text-green-600 pl-6 space-x-2 border-b-0 flex items-center'>
+                  <FontAwesomeIcon icon={faBoxOpen} />
+                  <span className='font-semibold'>
+                    Front&nbsp;Matter
+                  </span>
                 </Link>
               </div>
             </div>
