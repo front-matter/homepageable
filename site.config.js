@@ -17,7 +17,6 @@ module.exports = {
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'front__matter',
   github: 'front-matter',
 
   // default notion icon and cover images for site-wide consistency (optional)

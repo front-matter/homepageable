@@ -23,14 +23,6 @@
     'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-.loadingIcon {
-  animation: spinner 0.6s linear infinite;
-  display: block;
-  width: 24px;
-  height: 24px;
-  color: rgba(55, 53, 47, 0.4);
-}
-
 .main {
   display: flex;
   flex-direction: column;
