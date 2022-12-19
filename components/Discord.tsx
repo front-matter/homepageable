@@ -13,13 +13,8 @@ export default function Discord() {
             <div className="mt-5 text-xl text-gray-500">
               <p>
                 Discord is a popular instant messaging social platform.{' '}
-                <Link href="https://discord.gg/HvbD4dNPFh" passHref>
-                  <a
-                    href="dummy"
-                    className="text-gray-500 border-b border-green-600 hover:border-green-800"
-                  >
-                    Join the Front Matter Discord server
-                  </a>
+                <Link href="https://discord.gg/HvbD4dNPFh" className="text-gray-500 border-b border-green-600 hover:border-green-800">
+                  Join the Front Matter Discord server
                 </Link>
                 {' '}for comments and other feedback related to the Front Matter Blog,
                 or to contact Front Matter staff.

@@ -1,5 +1,5 @@
 {
-  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib",
   "files.exclude": {
     "**/logs": true,
     "**/*.log": true,
@@ -33,5 +33,6 @@
     "**/.now/": true,
     "**/.vercel/": true,
     "**/.google.json": true
-  }
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
