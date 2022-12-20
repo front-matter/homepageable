@@ -30,18 +30,6 @@ export default function Newsletter() {
           unsubscribe any time.
         </div>
         <div className='container flex mx-auto py-2 px-8 font-sans text-gray-700'>
-          Use the&nbsp;
-          <Link href='https://discuss.front-matter.io/c/preprints/11' passHref>
-            <a
-              href='dummy'
-              className='text-green-600 hover:text-green-400 border-b-0'
-            >
-              Front Matter discussion forum
-            </a>
-          </Link>
-          &nbsp; for any questions or comments.
-        </div>
-        <div className='container flex mx-auto py-2 px-8 font-sans text-gray-700'>
           <div className='mt-6'>
             <form
               action='https://static.mailerlite.com/webforms/submit/b5d0u2'

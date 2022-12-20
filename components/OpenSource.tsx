@@ -17,15 +17,12 @@ export default function OpenSource() {
         <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/inveniosoftware/invenio-app-rdm' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  InvenioRDM
-                </a>
+              <Link href='https://github.com/inveniosoftware/invenio-app-rdm'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                InvenioRDM
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -38,15 +35,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/TryGhost/Ghost' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Ghost
-                </a>
+              <Link href='https://github.com/TryGhost/Ghost' 
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Ghost
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -61,15 +55,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/vercel/next.js/' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Next.js
-                </a>
+              <Link href='https://github.com/vercel/next.js/'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Next.js
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -83,15 +74,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/jgm/pandoc' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Pandoc
-                </a>
+              <Link href='https://github.com/jgm/pandoc'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Pandoc
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -105,18 +93,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link
-                href='https://github.com/citation-style-language/styles'
-                passHref
+              <Link href='https://github.com/citation-style-language/styles'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  CSL
-                </a>
+                CSL
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -130,15 +112,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/plausible/hosting' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Plausible
-                </a>
+              <Link href='https://github.com/plausible/hosting'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Plausible
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -158,15 +137,12 @@ export default function OpenSource() {
         <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/front-matter/briard' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Briard
-                </a>
+              <Link href='https://github.com/front-matter/briard'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Briard
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
@@ -180,15 +156,12 @@ export default function OpenSource() {
 
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/front-matter/schlagzeile' passHref>
-                <a
-                  href='dummy'
-                  className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Schlagzeile
-                </a>
+              <Link href='https://github.com/front-matter/schlagzeile'
+                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Schlagzeile
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>

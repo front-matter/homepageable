@@ -56,36 +56,23 @@ export default function Team() {
                         </div>
                         <ul className='flex space-x-5 mt-1 list-none'>
                           <li>
-                            <Link href={person.emailUrl} passHref>
-                              <a
-                                href='dummy'
-                                className='text-gray-500 hover:text-gray-400 border-b-0'
-                              >
-                                <span className='sr-only'>Email</span>
-                                <FontAwesomeIcon icon={faEnvelope} />
-                              </a>
+                            <Link href={person.emailUrl} className='text-gray-500 hover:text-gray-400 border-b-0'>
+                              <span className='sr-only'>Email</span>
+                              <FontAwesomeIcon icon={faEnvelope} />
                             </Link>
                           </li>
                           <li>
-                            <Link href={person.mastodonUrl} passHref>
-                              <a
-                                href='dummy'
-                                className='text-gray-500 hover:text-gray-400 border-b-0'
-                              >
-                                <span className='sr-only'>Mastodon</span>
-                                <FontAwesomeIcon icon={faMastodon} />
-                              </a>
+                            <Link href={person.mastodonUrl} className='text-gray-500 hover:text-gray-400 border-b-0'>
+                              <span className='sr-only'>Mastodon</span>
+                              <FontAwesomeIcon icon={faMastodon} />
                             </Link>
                           </li>
                           <li>
-                            <Link href={person.githubUrl} passHref>
-                              <a
-                                href='dummy'
-                                className='text-gray-500 hover:text-gray-400 border-b-0'
-                              >
-                                <span className='sr-only'>GitHub</span>
-                                <FontAwesomeIcon icon={faGithub} />
-                              </a>
+                            <Link href={person.githubUrl}
+                              className='text-gray-500 hover:text-gray-400 border-b-0'
+                            >
+                              <span className='sr-only'>GitHub</span>
+                              <FontAwesomeIcon icon={faGithub} />
                             </Link>
                           </li>
                           <li>
