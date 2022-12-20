@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Logo from '../public/images/logo.png';
 
 export default function Navbar(props) {
   return (
@@ -11,7 +12,11 @@ export default function Navbar(props) {
             <div className='flex mx-2 px-2 lg:px-0'>
               <div className='flex-shrink-0 flex items-center'>
                 <Link href='/' className='text-lg text-green-600 pl-6 space-x-2 border-b-0 flex items-center'>
-                  <Image src='/images/logo.svg' alt='Front Matter' width={228} height={36} layout="responsive" />
+                <Image
+                  src={Logo}
+                  alt="Logo"
+                 placeholder="blur"
+                />
                 </Link>
               </div>
             </div>
