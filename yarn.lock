@@ -1644,10 +1644,10 @@
   resolved "https://registry.yarnpkg.com/@next/font/-/font-13.0.3.tgz#e483422262e33d0f195685dbaf4399576ecfe719"
   integrity sha512-J3bZooNyhzhRshEJZlc4Kagfx6f8LQkPdCsP0nZm63dAUaoeMaQRidFFhbL68WZ3S5XleVfpGYypZuBSyJqYtw==
 
-"@next/mdx@^13.0.3":
-  version "13.0.3"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.0.3.tgz#057be959fd47656e5bde8b27c2ae35e769038195"
-  integrity sha512-0NWKlwQdKsG/KdpTceC17zGlGP7deRAc2/JXpsOcy0744QWd3ai1Eg5g6YsR25giiW6EJVQr0ynfFzTLXdzg9Q==
+"@next/mdx@^13.0.5":
+  version "13.0.7"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.0.7.tgz#34275121ac690c11746780345fc96b456c9d9e72"
+  integrity sha512-ekuxCOO7j/Un7qxIYtuBAQN+bduDAtYDEMEf0OqBQ3ZDWJpQYrJ1kGr0uk1WjW5Z1OH7hV8ZlGwuBvhfjaao8Q==
   dependencies:
     source-map "^0.7.0"
 
