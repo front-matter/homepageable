@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import ImageURL from '../public/images/mfenner.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -13,7 +15,7 @@ const people = [
     name: 'Martin Fenner',
     role: 'Founder',
     emailUrl: 'mailto:martin@front-matter.io',
-    imageUrl: '/img/mfenner.png',
+    imageUrl: ImageURL,
     bio:
       'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.',
     mastodonUrl: 'https://mastodon.social/@mfenner',
@@ -37,10 +39,10 @@ export default function Team() {
                 <li key={person.name} className='sm:py-8 list-none'>
                   <div className='space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0'>
                     <div className='aspect-w-2 aspect-h-2 sm:aspect-w-2 sm:aspect-h-2'>
-                      <img
+                      <Image
                         className='object-cover shadow-lg rounded-lg'
                         src={person.imageUrl}
-                        alt=''
+                        alt='person.name'
                       />
                     </div>
                     <div className='sm:col-span-2'>

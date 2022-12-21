@@ -10,8 +10,8 @@ import {
   faShieldAlt
 } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
-import inveniordm from '../public/img/inveniordm.png'
-import cloud from '../public/img/cloud.png'
+import Inveniordm from '../public/images/inveniordm.png'
+import Cloud from '../public/images/cloud.png'
 
 export default function Features() {
   return (
@@ -204,9 +204,7 @@ export default function Features() {
                 </svg>
                 <Image
                   className='relative mx-auto mr-16 shadow-md'
-                  width={880}
-                  height={642}
-                  src={inveniordm}
+                  src={Inveniordm}
                   alt='inveniordm'
                 />
               </div>
@@ -348,9 +346,7 @@ export default function Features() {
                 </svg>
                 <Image
                   className='relative mt-16 mx-auto shadow-md'
-                  width={853}
-                  height={480}
-                  src={cloud}
+                  src={Cloud}
                   alt='Cloud'
                 />
               </div>
