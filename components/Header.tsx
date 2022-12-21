@@ -15,7 +15,6 @@ export default function Navbar(props) {
                 <Image
                   src={Logo}
                   alt="Logo"
-                 placeholder="blur"
                 />
                 </Link>
               </div>
