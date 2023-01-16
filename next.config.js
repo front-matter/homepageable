@@ -8,6 +8,14 @@ const withMDX = require('@next/mdx')({
   },
 })
 module.exports = withMDX({
+  async rewrites() {
+    return [
+        {
+          source: '/.well-known/webfinger',
+          destination: '/api/.well-known/webfinger'
+        }
+    ];
+  },
   // Append the default value with md extensions
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   experimental: {
