@@ -99,6 +99,11 @@ export default function Footer() {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link href='https://docs.front-matter.io' className='text-sm border-b-0 text-gray-500 hover:text-gray-400'>
+                  Documentation
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="mt-2 mx-6 md:mt-0">
