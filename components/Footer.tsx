@@ -1,11 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faEnvelope, faBoxOpen } from '@fortawesome/free-solid-svg-icons'
+import { faRss, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faMastodon,
-  faDiscord
+  faMastodon
 } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
@@ -44,11 +43,6 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faGithub} />
                   </Link>
 
-                  <Link href='/discord' className='text-gray-500 hover:text-gray-400 border-b-0'>
-                    <span className='sr-only'>Discord</span>
-                    <FontAwesomeIcon icon={faDiscord} />
-                  </Link>
-
                   <Link href='https://blog.front-matter.io/feed.xml' className='text-gray-500 hover:text-gray-400 border-b-0'>
                     <span className='sr-only'>RSS</span>
                     <FontAwesomeIcon icon={faRss} />
@@ -69,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href='https://front-matter.io' className='text-sm border-b-0 text-gray-500 hover:text-gray-400'>
-                  Cloud Hosting
+                  Hosting
                 </Link>
               </li>
             </ul>
@@ -79,21 +73,6 @@ export default function Footer() {
               More
             </h3>
             <ul className="mt-1 list-none">
-              <li>
-                <Link href="https://feedback.front-matter.io/" className="text-sm border-b-0 text-gray-500 hover:text-gray-400">
-                  Feature Ideas
-                </Link>
-              </li>
-              <li>
-                <Link href='https://feedback.front-matter.io/roadmap' className='text-sm border-b-0 text-gray-500 hover:text-gray-400'>
-                  Roadmap
-                </Link>
-              </li>
-              <li>
-                <Link href='https://feedback.front-matter.io/announcements' className='text-sm border-b-0 text-gray-500 hover:text-gray-400'>
-                  Announcements
-                </Link>
-              </li>
               <li>
                 <Link href='https://blog.front-matter.io' className='text-sm border-b-0 text-gray-500 hover:text-gray-400'>
                   Blog

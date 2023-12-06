@@ -1,6 +1,6 @@
 {
   "name": "homepageable",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "From Matter homepage.",
   "author": "Martin Fenner <martin@front-matter.io>",
@@ -24,7 +24,6 @@
     "@headlessui/react": "^1.7.2",
     "@mdx-js/loader": "^2.1.5",
     "@mdx-js/react": "^2.1.5",
-    "@next/font": "^13.0.7",
     "@next/mdx": "^13.0.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",

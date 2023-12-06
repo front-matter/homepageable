@@ -6,8 +6,7 @@ import {
   faCloud,
   faServer,
   faSearch,
-  faDatabase,
-  faShieldAlt
+  faDatabase
 } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 import Inveniordm from '../public/images/inveniordm.png'
@@ -57,7 +56,7 @@ export default function Features() {
               Introducing Front Matter
             </h2>
             <p className='mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500'>
-              Front Matter offers software development and hosting for the
+              Front Matter offers software development help with hosting for the
               scholarly community.
             </p>
           </div>
@@ -116,7 +115,7 @@ export default function Features() {
                   >
                     invenioRDM
                   </a>
-                  , research data management, persistent identifiers, and
+                  , scholarly blogs, persistent identifiers, and
                   metadata.
                 </p>
 
@@ -216,11 +215,11 @@ export default function Features() {
                   id='hosting'
                   className='text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl'
                 >
-                  Cloud Hosting
+                  Hosting
                 </h3>
                 <p className='mt-3 mr-16 text-lg text-gray-500'>
-                  Front Matter helps with setting up and maintaining cloud
-                  infrastructure for scholarly services.
+                  Front Matter helps with setting up and maintaining scholarly
+                  infrastructure.
                 </p>
 
                 <dl className='mt-10 space-y-10'>
@@ -230,21 +229,11 @@ export default function Features() {
                         <FontAwesomeIcon icon={faCloud} />
                       </div>
                       <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Public Cloud Providers
+                        Virtual Machines
                       </p>
                     </dt>
                     <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      Help with running scholarly infrastructure with cloud
-                      providers Amazon&nbsp;AWS or{' '}
-                      <a
-                        href='https://digitalocean.com'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-green-600 font-bold'
-                      >
-                        Digital Ocean
-                      </a>
-                      .
+                      Help with running scholarly infrastructure on virtual machines.
                     </dd>
                   </div>
 
@@ -254,20 +243,20 @@ export default function Features() {
                         <FontAwesomeIcon icon={faServer} />
                       </div>
                       <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Kubernetes
+                        Nomad
                       </p>
                     </dt>
                     <dd className='mt-1 ml-16 text-base text-gray-500'>
                       Help with setting up and maintaining a{' '}
                       <a
-                        href='https://kubernetes.io/'
+                        href='https://www.nomadproject.io/'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-green-600 font-bold'
                       >
-                        Kubernetes
+                        Nomad
                       </a>{' '}
-                      cluster.
+                      cluster of Docker containers.
                     </dd>
                   </div>
 
@@ -290,22 +279,7 @@ export default function Features() {
                       >
                         Terraform
                       </a>{' '}
-                      for managing cloud infrastructure.
-                    </dd>
-                  </div>
-
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faShieldAlt} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Security
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      Help with implementing Security Best Practices
-                      for cloud infrastructure.
+                      for managing scholarly infrastructure.
                     </dd>
                   </div>
                 </dl>
