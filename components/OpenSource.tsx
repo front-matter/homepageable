@@ -137,36 +137,19 @@ export default function OpenSource() {
         <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
           <div className='relative'>
             <dt>
-              <Link href='https://github.com/front-matter/briard'
+              <Link href='https://github.com/front-matter/commonmeta'
                 className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Briard
+                Commonmeta
               </Link>
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
-              Ruby gem and command-line utility for conversion of DOI metadata from 
-              and to different metadata formats, including schema.org. 
-              <p className='mt-2 text-sm font-sans'>
-                Original author Martin Fenner
-              </p>
-            </dd>
-          </div>
-
-          <div className='relative'>
-            <dt>
-              <Link href='https://github.com/front-matter/schlagzeile'
-                className='ml-9 text-xl leading-6 font-bold font-sans text-green-600 border-b-0'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Schlagzeile
-              </Link>
-            </dt>
-            <dd className='mt-0 ml-9 text-base text-gray-500'>
-              Schlagzeile is a Ghost theme forked from the official theme Headline, with
-              improved display of metadata such as the canonical URL and license.
+              Go package and command-line utility for the conversion of scholarly metadata into 
+              different metadata formats, including Crossref, DataCite, and schema.org. Commonmeta 
+              is also available in [Ruby](https://github.com/front-matter/commonmeta.rb) and 
+              [Python](https://github.com/front-matter/commonmeta-py) versions.
               <p className='mt-2 text-sm font-sans'>
                 Original author Martin Fenner
               </p>

@@ -17,7 +17,7 @@ const people = [
     emailUrl: 'mailto:martin@front-matter.io',
     imageUrl: ImageURL,
     bio:
-      'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology.',
+      'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology. Martin has more than 15 years of experience in software development (PHP, Ruby, Python, Javascript, and Go) and in running scholarly infrastructure at scale.',
     mastodonUrl: 'https://hachyderm.io/@mfenner',
     githubUrl: 'https://github.com/mfenner',
     linkedinUrl: 'https://www.linkedin.com/in/mfenner'

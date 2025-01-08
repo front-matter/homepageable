@@ -219,70 +219,8 @@ export default function Features() {
                 </h3>
                 <p className='mt-3 mr-16 text-lg text-gray-500'>
                   Front Matter helps with setting up and maintaining scholarly
-                  infrastructure.
+                  infrastructure, in particular the InvenioRDM research data management platform.
                 </p>
-
-                <dl className='mt-10 space-y-10'>
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faCloud} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Virtual Machines
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      Help with running scholarly infrastructure on virtual machines.
-                    </dd>
-                  </div>
-
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faServer} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Nomad
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      Help with setting up and maintaining a{' '}
-                      <a
-                        href='https://www.nomadproject.io/'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-green-600 font-bold'
-                      >
-                        Nomad
-                      </a>{' '}
-                      cluster of Docker containers.
-                    </dd>
-                  </div>
-
-                  <div className='relative'>
-                    <dt>
-                      <div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-600 text-white'>
-                        <FontAwesomeIcon icon={faClipboard} />
-                      </div>
-                      <p className='mx-16 mb-0 text-xl text-bold leading-6 font-medium text-gray-900 font-sans'>
-                        Terraform
-                      </p>
-                    </dt>
-                    <dd className='mt-1 ml-16 text-base text-gray-500'>
-                      Help with setting up and maintaining{' '}
-                      <a
-                        href='https://www.terraform.io/'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-green-600 font-bold'
-                      >
-                        Terraform
-                      </a>{' '}
-                      for managing scholarly infrastructure.
-                    </dd>
-                  </div>
-                </dl>
               </div>
 
               <div className='mt-10 -mx-4 relative lg:mt-0' aria-hidden='true'>
