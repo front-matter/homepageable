@@ -147,9 +147,7 @@ export default function OpenSource() {
             </dt>
             <dd className='mt-0 ml-9 text-base text-gray-500'>
               Go package and command-line utility for the conversion of scholarly metadata into 
-              different metadata formats, including Crossref, DataCite, and schema.org. Commonmeta 
-              is also available in [Ruby](https://github.com/front-matter/commonmeta.rb) and 
-              [Python](https://github.com/front-matter/commonmeta-py) versions.
+              different metadata formats, including Crossref, DataCite, and schema.org.
               <p className='mt-2 text-sm font-sans'>
                 Original author Martin Fenner
               </p>
