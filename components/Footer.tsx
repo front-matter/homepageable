@@ -20,7 +20,7 @@ export default function Footer() {
             Front Matter
             </h3>
             <p className='text-sm text-gray-500 mt-2'>
-              Kleimannstrasse 10
+              Redigerstrasse 16
               <br /> 48149 Münster
               <br />
               Germany
