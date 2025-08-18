@@ -20,7 +20,11 @@ import 'prismjs/components/prism-bash'
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <PlausibleProvider domain='front-matter.io'>
+      <PlausibleProvider
+        domain='front-matter.io'
+        selfHosted={true}
+        customDomain='https://plausible.rogue-scholar.org'
+      >
         <Head>
           <meta
             name='viewport'
