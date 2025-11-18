@@ -26,7 +26,7 @@ export default function Footer() {
               <li>
                 <div className='flex space-x-3 mb-3'>
                   <Link
-                    href='mailto:info@front-matter.io'
+                    href='mailto:info@front-matter.de'
                     className='text-gray-500 hover:text-gray-400 border-b-0'
                   >
                     <span className='sr-only'>Email</span>
@@ -51,7 +51,7 @@ export default function Footer() {
                   </Link>
 
                   <Link
-                    href='https://blog.front-matter.io/atom'
+                    href='https://blog.front-matter.de/atom'
                     className='text-gray-500 hover:text-gray-400 border-b-0'
                   >
                     <span className='sr-only'>RSS</span>
@@ -68,7 +68,7 @@ export default function Footer() {
             <ul className='mt-1 list-none'>
               <li>
                 <Link
-                  href='https://front-matter.io'
+                  href='https://front-matter.de'
                   className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                 >
                   Software Development
@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://front-matter.io'
+                  href='https://front-matter.de'
                   className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                 >
                   Hosting
@@ -91,7 +91,7 @@ export default function Footer() {
             <ul className='mt-1 list-none'>
               <li>
                 <Link
-                  href='https://blog.front-matter.io'
+                  href='https://blog.front-matter.de'
                   className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                 >
                   Blog
@@ -122,7 +122,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://plausible.rogue-scholar.org/front-matter.io'
+                  href='https://plausible.rogue-scholar.org/front-matter.de'
                   className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                 >
                   Web Analytics

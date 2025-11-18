@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <PlausibleProvider
-        domain='front-matter.io'
+        domain='front-matter.de'
         selfHosted={true}
         customDomain='https://plausible.rogue-scholar.org'
       >

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import ImageURL from '../public/images/mfenner.png';
+import ImageURL from '../public/images/mfenner.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -14,10 +14,9 @@ const people = [
   {
     name: 'Martin Fenner',
     role: 'Founder',
-    emailUrl: 'mailto:martin@front-matter.io',
+    emailUrl: 'mailto:martin@front-matter.de',
     imageUrl: ImageURL,
-    bio:
-      'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology. Martin has more than 15 years of experience in software development (PHP, Ruby, Python, Javascript, and Go) and in running scholarly infrastructure at scale.',
+    bio: 'Martin was Technical Director of the DOI registration agency DataCite from August 2015 to July 2021, and technical lead for the article-level metrics project at Open Access publisher PLOS from May 2012 until July 2015. He was founding member of the Open Researcher and Contributor Identifier (ORCID) board from 2010 to 2012. Martin has studied Medicine at the Free University Berlin and is board-certified in internal medicine and oncology. Martin has more than 15 years of experience in software development (PHP, Ruby, Python, Javascript, and Go) and in running scholarly infrastructure at scale.',
     mastodonUrl: 'https://hachyderm.io/@mfenner',
     githubUrl: 'https://github.com/mfenner',
     linkedinUrl: 'https://www.linkedin.com/in/mfenner'
@@ -58,19 +57,26 @@ export default function Team() {
                         </div>
                         <ul className='flex space-x-5 mt-1 list-none'>
                           <li>
-                            <Link href={person.emailUrl} className='text-gray-500 hover:text-gray-400 border-b-0'>
+                            <Link
+                              href={person.emailUrl}
+                              className='text-gray-500 hover:text-gray-400 border-b-0'
+                            >
                               <span className='sr-only'>Email</span>
                               <FontAwesomeIcon icon={faEnvelope} />
                             </Link>
                           </li>
                           <li>
-                            <Link href={person.mastodonUrl} className='text-gray-500 hover:text-gray-400 border-b-0'>
+                            <Link
+                              href={person.mastodonUrl}
+                              className='text-gray-500 hover:text-gray-400 border-b-0'
+                            >
                               <span className='sr-only'>Mastodon</span>
                               <FontAwesomeIcon icon={faMastodon} />
                             </Link>
                           </li>
                           <li>
-                            <Link href={person.githubUrl}
+                            <Link
+                              href={person.githubUrl}
                               className='text-gray-500 hover:text-gray-400 border-b-0'
                             >
                               <span className='sr-only'>GitHub</span>

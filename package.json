@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "private": true,
   "description": "From Matter homepage.",
-  "author": "Martin Fenner <martin@front-matter.io>",
+  "author": "Martin Fenner <martin@front-matter.de>",
   "repository": "front-matter/homepageable",
   "license": "MIT",
   "scripts": {
