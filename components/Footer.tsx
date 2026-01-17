@@ -122,7 +122,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://plausible.rogue-scholar.org/front-matter.de'
+                  href='https://plausible.front-matter.de/front-matter.de'
                   className='text-sm border-b-0 text-gray-500 hover:text-gray-400'
                 >
                   Web Analytics

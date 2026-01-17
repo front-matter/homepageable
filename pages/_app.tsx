@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
       <PlausibleProvider
         domain='front-matter.de'
         selfHosted={true}
-        customDomain='https://plausible.rogue-scholar.org'
+        customDomain='https://plausible.front-matter.de'
       >
         <Head>
           <meta
